@@ -11,7 +11,7 @@ def main():
     entree_cost = entree_function()
     dessert_cost = dessert_function ()
     total = appitizer_cost + entree_cost + dessert_cost
-    print(f' your total cost is ${total:2.f})
+    print(f'Your total cost is ${total:.2f}')
 
 if __name__ == '__main__':
     main()
